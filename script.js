@@ -1,25 +1,18 @@
-let First = prompt('Adjective')
-let Second = prompt('noun')
-let Third = prompt('Adjective')
-let Fourth = prompt('tool')
-let Fifth = prompt('adverb')
-let Sixth = prompt('object')
+let First = prompt('bone')
+let Second = prompt('place')
+let Third = prompt('object')
+let Fourth = prompt('drug')
+let Fifth = prompt('body part')
+let Sixth = prompt('adverb (capitalize first letter)')
 let Seventh = prompt('animal')
-let Eighth = prompt('verb ending in -ing')
-let Ninth = prompt('Adjective')
-let Tenth = prompt('(button or lever)')
-let Eleventh = prompt('past-tense verb')
-let Twelth = prompt('plural noun')
-let Thirteenth = prompt('silly made-up word)')
-let Fourteenth = prompt('person')
+let Eighth = prompt('object')
+let Ninth = prompt('same animal')
+let Tenth = prompt('body part')
+let Eleventh = prompt('same animal')
+let Twelth = prompt('object')
+let Thirteenth = prompt('different object')
+let Fourteenth = prompt('something to lay on')
 let Fifteenth = prompt('adjective')
-let Sixteenth = prompt('organization')
-let Sevententh = prompt('noun')
-let Eightenth = prompt('verb ending in -ing')
-let Ninetenth = prompt('emotion')
-
-
-let somethingToDoAtTheBeachInPastTense = prompt('Something To Do at the Beach (in past tense)?')
 
 
 console.log(First)
@@ -37,12 +30,10 @@ console.log(Twelth)
 console.log(Thirteenth)
 console.log(Fourteenth)
 console.log(Fifteenth)
-console.log(Sixteenth)
-console.log(Sevententh)
-console.log(Eightenth)
-console.log(Ninetenth)
 
-let myStory = `Last week, I decided to build a ${First} invention in my garage. First, I grabbed a ${Second} and a ${Third} ${Fourth}. I worked ${Fifth} for hours, attaching a ${Sixth} to a ${Seventh} using a ${Eighth}. Suddenly, it started ${Ninth}! To test it, I pressed the ${Tenth} ${Eleventh}, and it ${Twelth} across the room, landing in a pile of ${Thirteenth}. I called it the ${Fourteenth} and decided to show it to my ${Fifteenth}. They thought it was so ${Sixteenth} that they called the ${Sevententh} to share my invention with the world. Now, everyone uses my ${Sevententh} for ${Eightenth}, and I couldn’t be more ${Ninetenth}!`
+
+let myStory = `Last week, it was just like any other day, when BAM! I broke my ${First}! I got rushed to ${Second} to get treated asap. Before they did anything, the numbed my body using a ${Third} and injected me with ${Fourth}. Once it was injected into me, everything started spinning, my ${Fifth} started aching extremely bad. ${Sixth}, I passed out. When I woke up, I was in a strange room filled with ${Seventh}s. A nurse handed me a ${Eighth} and told me to throw it at the ${Ninth}s! I was so confused! Just as I was about to refuse, my ${Tenth} did it on its own! A doctor bursts in and shouted, "Don't let the ${Eleventh}s escape!" Suddenly, everything turned into ${Twelth}s and ${Thirteenth}, and I realized it was all a dream. I opened my eyes, and realized I was laying in ${Fourteenth}, and that the surgery went ${Fifteenth}.`;
+ 
 
 console.log(myStory)
 
