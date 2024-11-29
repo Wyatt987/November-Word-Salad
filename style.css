@@ -40,3 +40,32 @@ main #story, main #storyPart2 {
     transform: scale(1); 
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3); 
 }
+/*Read Your Story Button */
+#scrollBtn {
+    background-color: #ff6f61; 
+    color: white; 
+    border: none; 
+    font-size: 1.5rem; 
+    padding: 1rem 2rem; 
+    border-radius: 30px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    transition: all 0.3s ease;
+}
+
+#scrollBtn:hover {
+    background-color: #e65b54; 
+    transform: scale(1.1); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); 
+}
+
+#scrollBtn:active {
+    transform: scale(1); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+
+h1 {
+    font-family: "ruddy", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
